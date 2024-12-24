@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact - Graphic Designer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h3>Contact Me</h3>
+        <p>If you’d like to collaborate or have any questions, feel free to reach out! I would love to hear from you.</p>
+
+        <!-- Contact Form -->
+        <form action="submit_form.php" method="POST" class="contact-form">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <h4>Contact Information</h4>
+            <p>Email: <a href="mailto:danial@gmail.com">danial@gmail.com</a></p>
+            <p>Phone: +92 306 5432080</p>
+            <p>Location: Faisalabad</p>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Danial. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
