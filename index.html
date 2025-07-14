@@ -23,13 +23,21 @@
     <!-- Header -->
     <header id="header">
         <nav>
-            <ul>
-                <li><a href="#home" class="nav-link active" aria-label="Go to Home Section">Home</a></li>
-                <li><a href="#about" class="nav-link" aria-label="Go to About Section">About</a></li>
-                <li><a href="#portfolio" class="nav-link" aria-label="Go to Portfolio Section">Portfolio</a></li>
-                <li><a href="#contact" class="nav-link" aria-label="Go to Contact Section">Contact</a></li>
-            </ul>
-        </nav>
+    <!-- Add this button before your existing ul -->
+    <button class="burger-menu" aria-label="Toggle menu">
+      <span class="burger-line"></span>
+      <span class="burger-line"></span>
+      <span class="burger-line"></span>
+    </button>
+    
+    <ul class="nav-links">
+        <!-- Your existing navigation items -->
+        <li><a href="#home" class="nav-link active" aria-label="Go to Home Section">Home</a></li>
+        <li><a href="#about" class="nav-link" aria-label="Go to About Section">About</a></li>
+        <li><a href="#portfolio" class="nav-link" aria-label="Go to Portfolio Section">Portfolio</a></li>
+        <li><a href="#contact" class="nav-link" aria-label="Go to Contact Section">Contact</a></li>
+    </ul>
+</nav>
     </header>
 
     <!-- Main Content -->
